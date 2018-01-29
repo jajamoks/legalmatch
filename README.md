@@ -7,3 +7,5 @@ Technology Use:
  - Jquery
  - Bootstrap Select
  - Google map api
+
+Reminder: Kindly use internet to test, i using google map api for address in auto complete, so kindly run it with internet. Thanks.
