@@ -1,0 +1,560 @@
+
+/* Author Name: Aldrin Mojica */
+/* Description: This code is design for legal match exam */
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham/Gotham-Book.otf")
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham/Gotham-Bold.otf");
+    font-weight: bold
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham/Gotham-BookIta.otf");
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham/Gotham-BoldIta.otf");
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham/Gotham-Medium.otf");
+    font-weight: 500
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham/Gotham-MediumIta.otf");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham/Gotham-Light.otf");
+    font-weight: 300
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham/Gotham-LightIta.otf");
+    font-weight: 300;
+    font-style: italic
+}
+
+body {
+    font-family: "Gotham Book", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+}
+
+.no-margin {
+    margin: 0
+}
+
+.tagline {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-transform: uppercase;
+    color: #01277d;
+    font-weight: 700;
+
+}
+
+.tagline.one{
+	padding-top: 24px
+}
+
+.choose {
+    padding: 12px 17px;
+    border: none;
+    background: #d68d00;
+    color: #fff;
+    font-weight: bold;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    border-radius: 20px !important
+}
+
+header {
+    height: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+header .header-left .logo {
+    height: 70px
+}
+
+header .header-left>div {
+    display: table-cell;
+    vertical-align: middle
+}
+
+header .header-right ul {
+    list-style: none
+}
+
+header .header-right li {
+    padding-left: 1.8em
+}
+
+header .header-right li:before {
+    content: "\f00c";
+    color: #3e9d03;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em
+}
+
+#main {
+    background: #032b69 url("../../images/glow.png") center bottom no-repeat;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+#main h2 {
+	font-size: 42px;
+    font-weight: 200
+}
+
+#main h3 {
+	font-size: 30px;
+    margin-top: 7px
+}
+
+#main .headspan {
+	font-weight: 300;
+    font-size: 20px
+}
+
+#main .fancyform form {
+    width: 80%
+}
+
+#main .fancyform form .form-group {
+    margin-top: 30px
+}
+
+#main .fancyform form .form-group label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 13px
+}
+
+#main .fancyform form .form-group .input-group {
+    padding: 12px;
+    background: #fff;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    border-radius: 50px !important
+}
+
+#main .fancyform form .form-group .input-group input {
+    border: none;
+    box-shadow: none
+}
+
+#main .fancyform form .form-group .input-group .input-group-btn {
+    width: auto
+}
+
+#main .fancyform form .form-group .input-group .input-group-btn .btn {
+    border: none;
+    background: none;
+    box-shadow: none
+}
+
+#main .fancyform form>div:last-child {
+    text-align: center
+}
+
+#main .fancyform form>div:last-child a {
+    color: #fff;
+    text-decoration: underline
+}
+
+#main .reviews .media {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4e8bb9
+}
+
+#main .reviews .media .media-left {
+    width: 22%
+}
+
+#main .reviews .media .media-left img {
+    margin: auto;
+    width: 72%;
+    margin-bottom: 8px;
+    border: 2px solid #2976ad
+}
+
+#main .reviews .media .media-left .name {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px
+}
+
+#main .reviews .media .media-left .address {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px
+}
+
+#main .reviews .media .media-body {
+    width: 78%;
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 1.5
+}
+
+#main .reviews .media .media-body .media-heading {
+    font-size: 12px;
+    margin-bottom: 10px
+}
+
+#main .reviews .media .media-body .media-heading .fa-star {
+    color: #d89108;
+    margin: 0 2px
+}
+
+#main .reviews .media .media-body .media-heading .fa-star:first-child {
+    margin-left: 15px
+}
+
+#main .reviews .media .media-body div:last-child {
+    text-align: right;
+    background: url("../../images/book.png") center right no-repeat;
+    padding-right: 20px;
+    margin-top: 10px
+}
+
+#main .reviews .media .media-body div:last-child a {
+    color: #fbd243;
+    text-decoration: none;
+    outline: 0
+}
+
+#main .reviews .media:last-child {
+    border-bottom: none
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+footer .container {
+    border-bottom: 1px solid #efefef
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #929ba4
+}
+
+footer p:first-of-type {
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+footer a {
+    color: #929ba4;
+    text-decoration: none;
+    margin-left: 1.3em
+}
+
+footer a:first-child {
+    margin-left: 0
+}
+
+footer a:after {
+    content: "\f111";
+    font-size: 4px;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: 6em;
+    width: 1.3em;
+    vertical-align: bottom
+}
+
+footer a:last-child:after {
+    content: none
+}
+
+footer a:hover:after {
+    color: #929ba4
+}
+
+footer .seals img {
+    float: right;
+    margin-bottom: 20px
+}
+
+#categoryModal .modal-main {
+    padding: 30px 20px
+}
+
+#categoryModal .modal-main .question {
+    margin-bottom: 30px
+}
+
+#categoryModal .modal-main .question .choose {
+    padding: 8px 13px;
+    margin-right: 15px
+}
+
+#categoryModal .modal-main .checkbox {
+    margin-bottom: 25px
+}
+
+#categoryModal .modal-main .checkbox:last-child {
+    margin-bottom: 0
+}
+
+#categoryModal .modal-main .checkbox label {
+    padding-left: 4px
+}
+
+#categoryModal .modal-main .checkbox label:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+#categoryModal .modal-main .checkbox label input[type="checkbox"] {
+    display: none
+}
+
+#categoryModal .modal-main .checkbox label input[type="checkbox"]+.cr>.cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in
+}
+
+#categoryModal .modal-main .checkbox label input[type="checkbox"]:checked+.cr>.cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1
+}
+
+#categoryModal .modal-main .checkbox label input[type="checkbox"]:disabled+.cr {
+    opacity: .5
+}
+
+#categoryModal .modal-main .checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em
+}
+
+#categoryModal .modal-main .checkbox .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%
+}
+
+#categoryModal .modal-main>div:last-child {
+    text-align: center;
+    margin-top: 50px
+}
+
+#clientReview .modal-main {
+    padding: 15px 25px
+}
+
+#clientReview .modal-main .title {
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+#clientReview .modal-main .media {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+#clientReview .modal-main .media .media-left {
+    width: 20%
+}
+
+#clientReview .modal-main .media .media-left img {
+    width: 85%
+}
+
+#clientReview .modal-main .media .media-body {
+    width: 80%
+}
+
+#clientReview .modal-main .media .media-body .media-heading {
+    font-size: 30px;
+    font-weight: normal;
+    color: #000
+}
+
+#clientReview .modal-main .media .media-body p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #000
+}
+
+#clientReview .modal-main .media .media-body p.address {
+    color: #979da3
+}
+
+#clientReview .modal-main .ratings {
+    font-size: 24px;
+    color: #000
+}
+
+#clientReview .modal-main .breakdown {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+#clientReview .modal-main .breakdown table {
+    width: 100%
+}
+
+#clientReview .modal-main .comment {
+    padding-top: 20px
+}
+
+#clientReview .modal-main .comment .comment-head {
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px
+}
+
+#clientReview .modal-main .fa-star {
+    color: #d69024;
+    margin-right: 3px
+}
+
+#clientReview .modal-main .fa-star.off {
+    color: #666
+}
+
+#clientReview .modal-main>div {
+    border-bottom: 1px solid #666;
+    padding-bottom: 10px
+}
+
+#clientReview .modal-main>div:last-of-type {
+    border-bottom: none
+}
+
+#clientReview .modal-main .close {
+    color: #0000ff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 1
+}
+
+#otherCat .modal-main {
+    padding: 20px
+}
+
+#otherCat .modal-main h4 {
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+#otherCat .modal-main h5 {
+    font-weight: normal
+}
+
+#otherCat .modal-main ul {
+    margin-top: 10px
+}
+
+#otherCat .modal-main ul li {
+    margin-bottom: 5px
+}
+
+.container {
+    width: 1220px;
+    padding-left: 60px;
+    padding-right: 60px
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background: #02377b;
+    text-transform: uppercase;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    border-radius: 50px !important;
+    padding: 15px 30px;
+    border: none
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+  width: 10px;
+  height: 10px;
+  border: none;
+  font-family: 'Glyphicons Halflings'
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret:before {
+  content: "\e114"
+}
+
+
+.scrollbar
+{
+	height: 450px;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+	overflow-x: hidden
+}
+
+.force-overflow
+{
+	min-height: 450px
+}
+
+
+
+#scrolling::-webkit-scrollbar
+{
+	width: 8px;	background-color: #F5F5F5
+
+}
+
+#scrolling::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #ccc
+}
+
+#otherCat a{
+	font-size: 12px
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret{
+	    margin-top: -8px
+}
